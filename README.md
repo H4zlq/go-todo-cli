@@ -10,7 +10,7 @@ The purpose of this project is to provide a simple and efficient way to manage y
 
 - Add new tasks
 - List all tasks
-- Mark tasks as completed
+- Mark tasks as completed or in progress
 - Delete tasks
 - Filter tasks by status
 
@@ -20,7 +20,7 @@ To install the Go Todo CLI, follow these steps:
 
 1. Clone the repository:
   ```sh
-  git clone https://github.com/yourusername/go-todo-cli.git
+  git clone https://github.com/H4zlq/go-todo-cli.git
   ```
 2. Navigate to the project directory:
   ```sh
@@ -49,7 +49,11 @@ Here are some basic commands to get you started:
   ```
 - Mark a task as completed:
   ```sh
-  todo done 1
+  todo mark-done 1
+  ```
+- Mark a task as in progress:
+  ```sh
+  todo mark-in-progress 1
   ```
 - Delete a task:
   ```sh
@@ -59,10 +63,6 @@ Here are some basic commands to get you started:
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Roadmap
 
@@ -74,4 +74,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact the project maintainer at [your-email@example.com](mailto:your-email@example.com).
+For any questions or suggestions, please open an issue or contact the project maintainer at [hazinaim72@gmail.com](mailto:hazinaim72@gmail.com).
