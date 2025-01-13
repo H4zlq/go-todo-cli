@@ -29,8 +29,8 @@ func init() {
 }
 
 var rootCmd = &cobra.Command{
-	Use:     "task-cli",
-	Short:   "task-cli is a CLI for managing your TODOs.",
+	Use:     "todo",
+	Short: "A command line interface for managing TODOs",
 	Version: "0.0.1",
 	Run: func(cmd *cobra.Command, args []string) {
 		// Do Stuff Here
